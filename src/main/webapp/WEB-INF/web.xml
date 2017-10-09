@@ -24,6 +24,12 @@
 		<servlet-name>Ville</servlet-name>
 		<servlet-class>co.simplon.PoleEmploi.patrimoine.controler.VilleServlet</servlet-class>
 	</servlet>
+	<servlet>
+
+        <servlet-name>javax.ws.rs.core.Application</servlet-name>
+
+    </servlet>
+	
 	
 	<servlet-mapping>
 		<servlet-name>Demo</servlet-name>
@@ -45,6 +51,13 @@
 		<servlet-name>Ville</servlet-name>
 		<url-pattern>/ville</url-pattern>
 	</servlet-mapping>
+	 <servlet-mapping>
+
+        <servlet-name>javax.ws.rs.core.Application</servlet-name>
+
+        <url-pattern>/rest/*</url-pattern>
+
+    </servlet-mapping>
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
