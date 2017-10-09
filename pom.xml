@@ -5,7 +5,7 @@
 	<artifactId>servlet-rest-service</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>servlet-rest-service</name>
+	<name>Servlet REST Service</name>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
-			<version>2.25.1</version>
+			<version>2.25</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
@@ -54,8 +54,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.2</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
